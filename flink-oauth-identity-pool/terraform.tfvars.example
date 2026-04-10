@@ -1,0 +1,8 @@
+# OAuth provider configuration (for Terraform provider authentication)
+oauth_external_token_url     = "https://your-idp.example.com/oauth2/token"
+oauth_external_client_id     = "your-client-id"
+oauth_external_client_secret = "your-client-secret"
+oauth_identity_pool_id       = "pool-xyz789"  # Pool for Terraform provider auth
+
+# Identity provider for the Flink statements pool
+identity_provider_id = "op-abc123"
